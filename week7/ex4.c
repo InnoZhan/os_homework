@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void * realloc(void * ptr, int size, int old_size) {
 	if (ptr == NULL) {
