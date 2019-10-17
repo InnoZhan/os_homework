@@ -36,7 +36,6 @@ int main() {
 			if (frames[i].ref == 1 && frames[i].number == frame_num) {
 				hit++;
 				frames[i].priority += 128;
-				i = frame_size;
 			}
  		}
 
