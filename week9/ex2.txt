@@ -1,0 +1,8 @@
+In hit_input.txt only 10 frames are 
+called and all of them after one 
+cycle are puted in the "cache" 
+so all other 990 calls will end up being a hit
+
+In miss_input.txt there are not 
+repeaded frame calls so there 
+will be no hit since every call is unique
