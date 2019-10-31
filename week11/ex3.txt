@@ -1,0 +1,2 @@
+In program 1 two identical procedures are created and content of buffer is the same for both "Hello" which is printed in both procedures after printf("\n") command
+In program 2 line "Hello" is printed before frok becouse of "\n" at the end and then two identical procedures are created with empty buffer which is printed after printf("\n") command 
