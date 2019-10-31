@@ -7,7 +7,6 @@
 int main() {
 	struct stat src_s;
 	struct stat dest_s;
-	char *string = "This is a nice day";
 	char *addr_src;
 	char *addr_dest;
 	int src = open("ex1.txt", O_RDWR);
