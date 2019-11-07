@@ -1,0 +1,26 @@
+1024 byte buffer
+
+real	0m0,010s
+user	0m0,000s
+sys	0m0,007s
+
+10 byte buffer
+
+real	0m0,194s
+user	0m0,055s
+sys	0m0,117s
+
+10 byte buffer with O_SYNC = 0
+
+real	0m0,198s
+user	0m0,037s
+sys	0m0,136s
+
+10 byte buffer with O_SYNC = 1
+
+real	0m0,189s
+user	0m0,057s
+sys	0m0,110s
+
+The bigger buffer size the faster copy process is complited
+With O_SYNC = 1 copying complited faster
