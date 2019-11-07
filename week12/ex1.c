@@ -6,8 +6,8 @@ int main() {
 
 	char str[21];
 	fgets(str, 20, r_file);
+        str[20] = '\0';
 	fputs(str, w_file);
-	str[20] = '\0';
 	fclose(w_file);
 	fclose(r_file);
 	return 0;
