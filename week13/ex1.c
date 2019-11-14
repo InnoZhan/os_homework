@@ -53,9 +53,9 @@ int main() {
 					for (int j = 0; j < r; j++) {
 						A[j] += C[i][j];
 						R[i][j] = 0;
-						finished[i] = 1;
-						changed = 1;
 					}
+					finished[i] = 1;
+					changed = 1;
 					i = p;
 				}
 			}
