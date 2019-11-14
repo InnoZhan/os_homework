@@ -1,0 +1,10 @@
+Recovery:
+	This way of dedlock avoidence is time and space consuming. We either need
+	to save state of the process or make sure that we can take resouce from 
+	the process. Or even kill the process and rerun int.
+Prevention:
+	This way of dealing with dedlock is very inefficient and may lead to
+	unsolvable dedlocks
+Avoidance:
+	We need to be able to check state of the process (safe/unsafe) so additional
+	information is needed.
